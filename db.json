@@ -29,53 +29,25 @@
   ],
   "transactions": [
     {
-      "id": "1",
-      "userId": "2",
-      "value": 2000,
-      "type": "deposito",
-      "createdAt": "2025-01-20T00:15:32.012Z"
-    },
-    {
-      "id": "2",
-      "userId": "2",
-      "value": 500,
-      "type": "saque",
-      "createdAt": "2025-01-20T00:15:37.688Z"
-    },
-    {
-      "id": "4",
       "userId": "1",
-      "value": 4000,
-      "type": "saque",
-      "createdAt": "2025-01-20T11:40:23.296Z"
+      "value": 68000,
+      "type": "deposito",
+      "createdAt": "2025-01-20T21:51:42.699Z",
+      "id": 1
     },
     {
       "userId": "1",
-      "value": 666000,
+      "value": 65500,
       "type": "deposito",
-      "createdAt": "2025-01-20T17:10:15.741Z",
-      "id": "lsrn0AD"
+      "createdAt": "2025-01-20T21:54:21.542Z",
+      "id": 2
     },
     {
       "userId": "1",
-      "value": 5000,
+      "value": 12000,
       "type": "deposito",
-      "createdAt": "2025-01-20T17:14:50.589Z",
-      "id": "VX_xlCQ"
-    },
-    {
-      "userId": "1",
-      "value": 6000,
-      "type": "deposito",
-      "createdAt": "2025-01-20T17:40:18.673Z",
-      "id": "mVcukYe"
-    },
-    {
-      "userId": "1",
-      "value": 2222,
-      "type": "deposito",
-      "createdAt": "2025-01-20T21:31:47.211Z",
-      "id": "_jMRUpX"
+      "createdAt": "2025-01-20T21:54:24.962Z",
+      "id": 3
     }
   ]
 }

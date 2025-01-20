@@ -3,8 +3,8 @@ const server = jsonServer.create();
 const router = jsonServer.router("db.json");
 const middlewares = jsonServer.defaults();
 
-server.get("/total-balance", (req, res) => {
-  const userId = req.params.userId;
+server.get("/balance", (req, res) => {
+  const userId = req.query.userId;
   const db = router.db;
 
   const transactions = db.get("transactions").value();
