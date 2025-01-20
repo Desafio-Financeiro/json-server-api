@@ -3,6 +3,10 @@ const server = jsonServer.create();
 const router = jsonServer.router("db.json");
 const middlewares = jsonServer.defaults();
 
+const fs = require("fs");
+const path = require("path");
+const db = JSON.parse(fs.readFileSync(path.join("db.json")));
+
 server.use(middlewares);
 server.use(router);
 
@@ -11,8 +15,6 @@ server.use((req, res, next) => {
     ["POST", "PUT", "DELETE"].includes(req.method) &&
     req.path.startsWith("/transactions")
   ) {
-    const db = router.db;
-
     const transactions = db.get("transactions").value();
     const balances = db.get("balance").value();
 
