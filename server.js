@@ -2,6 +2,10 @@ const jsonServer = require("json-server");
 const server = jsonServer.create();
 const router = jsonServer.router("db.json");
 const middlewares = jsonServer.defaults();
+const cors = require("cors");
+
+server.use(cors());
+server.use(middlewares);
 
 server.get("/balance", (req, res) => {
   const userId = req.query.userId;
@@ -19,8 +23,6 @@ server.get("/balance", (req, res) => {
 
   return res.json({ total });
 });
-
-server.use(middlewares);
 
 server.use(router);
 

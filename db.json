@@ -30,24 +30,73 @@
   "transactions": [
     {
       "userId": "1",
-      "value": 68000,
       "type": "deposito",
-      "createdAt": "2025-01-20T21:51:42.699Z",
-      "id": 1
+      "value": 212200,
+      "createdAt": "2025-01-20T22:08:14.787Z",
+      "id": 8
     },
     {
       "userId": "1",
-      "value": 65500,
-      "type": "deposito",
-      "createdAt": "2025-01-20T21:54:21.542Z",
-      "id": 2
+      "type": "saque",
+      "value": 110003,
+      "createdAt": "2025-01-20T22:41:30.719Z",
+      "id": 9
     },
     {
       "userId": "1",
-      "value": 12000,
+      "value": 0,
       "type": "deposito",
-      "createdAt": "2025-01-20T21:54:24.962Z",
-      "id": 3
+      "createdAt": "2025-01-20T22:49:01.051Z",
+      "id": 10
+    },
+    {
+      "userId": "1",
+      "value": 0,
+      "type": "deposito",
+      "createdAt": "2025-01-20T22:49:17.985Z",
+      "id": 11
+    },
+    {
+      "userId": "1",
+      "value": 0,
+      "type": "deposito",
+      "createdAt": "2025-01-20T22:49:19.245Z",
+      "id": 12
+    },
+    {
+      "userId": "1",
+      "value": 2000,
+      "type": "deposito",
+      "createdAt": "2025-01-20T22:50:24.212Z",
+      "id": 13
+    },
+    {
+      "userId": "1",
+      "value": 4000,
+      "type": "deposito",
+      "createdAt": "2025-01-20T22:50:27.241Z",
+      "id": 14
+    },
+    {
+      "userId": "1",
+      "value": 22000,
+      "type": "deposito",
+      "createdAt": "2025-01-20T22:51:07.458Z",
+      "id": 15
+    },
+    {
+      "userId": "1",
+      "value": 1000,
+      "type": "deposito",
+      "createdAt": "2025-01-20T22:51:22.480Z",
+      "id": 16
+    },
+    {
+      "userId": "1",
+      "value": 2000,
+      "type": "deposito",
+      "createdAt": "2025-01-20T22:52:18.927Z",
+      "id": 17
     }
   ]
 }
