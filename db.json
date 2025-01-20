@@ -1,0 +1,77 @@
+{
+  "user": [
+    {
+      "id": "1",
+      "name": "Isabella",
+      "email": "isabella@fiap.com",
+      "password": "1234"
+    },
+    {
+      "id": "2",
+      "name": "Cristiano",
+      "email": "cristiano@fiap.com",
+      "password": "1234"
+    }
+  ],
+  "balance": [
+    {
+      "id": "1",
+      "userId": "1",
+      "currentAccount": -328908,
+      "investmentsAccount": [
+        {
+          "fixedIncome": 30000,
+          "variableIncome": 26000
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "userId": "2",
+      "currentAccount": 5000,
+      "investmentsAccount": [
+        {
+          "fixedIncome": 25000,
+          "variableIncome": 15000
+        }
+      ]
+    }
+  ],
+  "transactions": [
+    {
+      "id": "681a",
+      "userId": "1",
+      "value": 2000,
+      "type": "deposito",
+      "createdAt": "2025-01-20T00:15:32.012Z"
+    },
+    {
+      "id": "f856",
+      "userId": "1",
+      "value": 500,
+      "type": "saque",
+      "createdAt": "2025-01-20T00:15:37.688Z"
+    },
+    {
+      "id": "b363",
+      "userId": "1",
+      "value": 3000,
+      "type": "deposito",
+      "createdAt": "2025-01-20T11:40:18.926Z"
+    },
+    {
+      "id": "beaa",
+      "userId": "1",
+      "value": 4000,
+      "type": "saque",
+      "createdAt": "2025-01-20T11:40:23.296Z"
+    },
+    {
+      "id": "fee6",
+      "userId": "1",
+      "value": 1000000,
+      "type": "deposito",
+      "createdAt": "2025-01-20T11:40:30.069Z"
+    }
+  ]
+}
