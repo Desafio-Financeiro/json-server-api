@@ -4,6 +4,10 @@ const router = jsonServer.router("db.json");
 const middlewares = jsonServer.defaults();
 const cors = require("cors");
 
+const fs = require("fs");
+const path = require("path");
+const db = JSON.parse(fs.readFileSync(path.join("db.json")));
+
 server.use(cors());
 
 server.use((req, res, next) => {
@@ -26,7 +30,6 @@ server.use(middlewares);
 
 server.get("/balance", (req, res) => {
   const userId = req.query.userId;
-  const db = router.db;
 
   const transactions = db.get("transactions").value();
 
