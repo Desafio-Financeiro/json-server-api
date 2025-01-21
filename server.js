@@ -33,7 +33,7 @@ server.use(middlewares);
 server.get("/balance", (req, res) => {
   const userId = req.query.userId;
 
-  const transactions = db.get("transactions").value();
+  const transactions = db["transactions"];
 
   const total = transactions
     .filter((t) => t.userId === userId)
